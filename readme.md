@@ -1,0 +1,1 @@
+A repository to document exercises I'm doing to learn C, since writing it out helps reinforce the things I'm learning. Most of the exercises I've done so far have been based off the tutorials at [learn-c.org](https://learn-c.org).
