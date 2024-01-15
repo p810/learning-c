@@ -47,12 +47,8 @@ union Coins {
 };
 
 int main() {
-  union Coins x;
-
-  x.coins[0] =  3;
-  x.coins[1] =  1;
-  x.coins[2] =  0;
-  x.coins[3] = 15;
+  // When initialized with a value C will assign it to the first member in the struct:
+  union Coins x = {3, 1, 0, 15};
 
   printf("The members of x start at %p\n\n", x.coins);
   printf("┌─────────────────────────────────────┐\n");
